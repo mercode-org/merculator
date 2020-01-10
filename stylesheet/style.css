@@ -7,7 +7,6 @@ body {
 form {
   max-width: 560px;
   width: 85%;
-  /*background: linear-gradient(225deg, #FF3CAC 0%, #784BA0 67%, #2B86C5 100%);*/
   background: none;
   position: relative;
   padding: 30px 20px;
@@ -15,7 +14,6 @@ form {
   float: left;
   border-radius: 8px;
   text-align: center;
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;*/
   font-family: "Raleway";
   margin: 0 auto 50px;
 }
@@ -36,8 +34,9 @@ input {
   margin: 6px;
 }
 input:hover {
-  color: black;
-  border:2px solid black;
+  color: #ff4d0d;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.2s;
 }
 h2 {

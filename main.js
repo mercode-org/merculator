@@ -1,8 +1,8 @@
 console.log('main project working');
 
-const deskgap = require("deskgap");
-const app = deskgap.app;
-const BrowserWindow = deskgap.BrowserWindow;
+const electron = require("electron");
+const app = electron.app;
+const BrowserWindow = electron.BrowserWindow;
 const path = require("path");
 const url = require("url");
 
@@ -28,6 +28,6 @@ let win;
    }
  })
 
- deskgap.app.on('browser-window-created',function(e,window) {
+ electron.app.on('browser-window-created',function(e,window) {
      window.setMenu(null);
  });

@@ -1,11 +1,15 @@
 {
-  "name": "hello-world",
-  "version": "1.0.0",
+  "name": "merculator",
+  "version": "1.0.4",
+  "author": "Yutyo",
+  "description": "A scientific calculator.",
+  "license": "GPLv3",
   "main": "main.js",
-  "dependencies": {
-    "deskgap": "0.2.0"
+  "devDependencies": {
+    "electron": "^7.1.7"
   },
   "scripts": {
-    "start": "deskgap ."
-  }
+    "start": "electron ."
+  },
+  "dependencies": {}
 }
