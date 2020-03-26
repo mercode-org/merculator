@@ -33,14 +33,60 @@ input {
   padding-bottom: 15px;
   padding-left: 19px;
   padding-right: 19px;
+  min-width: 400;
+  max-width: 400;
   margin: 6px;
 }
+
 input:hover {
   color: #ff4d0d;
   background: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.2s;
 }
+
+.button {
+  position: relative;
+  background: none;
+  color: white;
+  border:2px solid white;
+  border-radius: 8px;
+  transition: 0.2s;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 19px;
+  padding-right: 19px;
+  min-width: 70px;
+  max-width: 70px;
+  margin: 6px;
+}
+
+.bigbutton {
+  position: relative;
+  background: none;
+  color: white;
+  border:2px solid white;
+  border-radius: 8px;
+  transition: 0.2s;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 19px;
+  padding-right: 19px;
+  min-width: 164px;
+  max-width: 164px;
+  margin: 6px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h2 {
   text-align: center;
 }
