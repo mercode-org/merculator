@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9)) no-repeat center center fixed;
+}
+
+input {
+  color: white;
+  border:2px solid white;
+}
+
+input:hover {
+  color: #ff4d0d;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button {
+  color: white;
+  border:2px solid white;
+}
+
+.button:hover {
+  color: #ff4d0d;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bigbutton {
+  color: white;
+  border:2px solid white;
+}
+
+.bigbutton:hover {
+    background: #252525;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sc {
+    background: #fff;
+    color: #000;
+}
+
+.settingsicon {
+  color: white;
+}

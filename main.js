@@ -8,7 +8,7 @@ const url = require("url");
 
 let win;
  function createWindow() {
-   win = new BrowserWindow({width: 565, minWidth: 565, maxWidth: 565, height: 545, minHeight: 535, maxHeight: 545, icon: path.join(__dirname + '/icon.png')});
+   win = new BrowserWindow({width: 565, minWidth: 565, maxWidth: 565, height: 545, minHeight: 545, maxHeight: 545, icon: path.join(__dirname + '/icon.png')});
    win.loadURL(url.format({
      pathname: path.join(__dirname, 'index.html'),
      protocol: 'file',

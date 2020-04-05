@@ -9,7 +9,17 @@
     "electron": "^8.2.0"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "nixstart": "nix run nixpkgs.electron_6 -c electron ."
   },
+
+  "launcher": {
+    "title": "merculator",
+    "icon": "",
+    "main": "./index.html",
+    "width": 565,
+    "height": 545
+  },
+
   "dependencies": {}
 }
