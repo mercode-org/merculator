@@ -61,6 +61,7 @@ input:hover {
   min-width: 70px;
   max-width: 70px;
   margin: 6px;
+  outline: none;
 }
 
 .bigbutton {
@@ -79,6 +80,7 @@ input:hover {
   min-width: 164px;
   max-width: 164px;
   margin: 6px;
+  outline: none;
 }
 
 .main {
@@ -94,4 +96,5 @@ h2 {
 .sc {
   background: #fff;
   color: #000;
+  outline: none;
 }

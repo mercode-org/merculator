@@ -1,0 +1,49 @@
+body {
+    background: rgb(233, 233, 233);
+  }
+  
+  input {
+    color: white;
+    border:2px solid white;
+  }
+  
+  input:hover {
+    color: black;
+    background: rgb(180, 180, 180);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .button {
+    color: black;
+    border:2px solid rgb(255, 77, 13);
+  }
+  
+  .button:hover {
+      background: white;
+      color: black;
+  }
+  
+  .bigbutton {
+    color: black;
+    border:2px solid rgb(255, 77, 13);
+  }
+  
+  .bigbutton:hover {
+      background: white;
+      color: black;
+  }
+  
+  .sc {
+    background: rgb(219, 219, 219);
+    color: black;
+    border-color: rgb(161, 161, 161);
+  }
+  
+  .sc:hover {
+      background: white;
+      color: black;
+  }
+
+  .settingsicon {
+    color: black;
+  }
