@@ -3,6 +3,7 @@ body {
   width: 100%;
   text-align: center;
   overflow: hidden;
+  transition: .5s;
 }
 form {
   max-width: 560px;
